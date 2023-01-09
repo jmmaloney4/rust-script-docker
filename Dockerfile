@@ -1,4 +1,4 @@
-FROM rust:alpine@sha256:8599c8d0606df8eac2061bd44a63fc25785213a06efac1cda79ef7efd7bdc4bd
+FROM rust:alpine@sha256:72247373588e0fc280545795afedaef92d1ca7bf13d2ff82c3e3f8655c076972
 
 RUN apk add musl-dev
 RUN cargo install rust-script
